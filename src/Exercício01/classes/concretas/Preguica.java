@@ -2,7 +2,7 @@ package Exercício01.classes.concretas;
 
 import Exercício01.classes.abstratas.Animal;
 
-class Preguica extends Animal {
+public class Preguica extends Animal {
     public Preguica(String nome, int idade) {
         super(nome, idade);
     }
@@ -11,7 +11,7 @@ class Preguica extends Animal {
     public void emitirSom() {
         System.out.println(this.getNome() + " está emitindo um som lento.");
     }
-    
+
     public void correr() {
         System.out.println(this.getNome() + " não pode correr.");
     }
